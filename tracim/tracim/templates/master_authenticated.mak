@@ -120,6 +120,10 @@
 
                 <ul class="header__navbar__right nav navbar-nav navbar-right">
 
+                    <div class="header__navbar__right__switch-mode switch-read-mode hidden-xs">
+                        ${TIM.FA('fa-eye fa-fw')} ${_('Read mode')}
+                    </div>
+
                     % if request.identity:
 
                         <form id="search-form" class="navbar-form navbar-left" role="search" action="${tg.url('/search?')}">
@@ -185,10 +189,6 @@
 ##                        </ul>
 ##                    </li>
                 </ul>
-
-                <div class="header__navbar__switch-mode switch-read-mode hidden-xs">
-                    ${TIM.FA('fa-eye fa-fw')} ${_('Read mode')}
-                </div>
 
             </div>
         </div>

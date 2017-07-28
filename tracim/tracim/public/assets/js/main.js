@@ -39,12 +39,12 @@ $(document).ready(function () {
   // });
 
   // switch btn read/work btn
-  $('.header__navbar').on('click', '.header__navbar__switch-mode.switch-read-mode', function () {
+  $('.header__navbar').on('click', '.header__navbar__right__switch-mode.switch-read-mode', function () {
     $(this).removeClass('switch-read-mode').addClass('switch-work-mode').html('<i class="fa fa-edit fa-fw"></i> ' + __('btnWorkMode'))
     $('#sidebar-left, #sidebar-right').hide()
     $('.content__wrapper').removeClass('edit-mode-margin')
   })
-  $('.header__navbar').on('click', '.header__navbar__switch-mode.switch-work-mode', function () {
+  $('.header__navbar').on('click', '.header__navbar__right__switch-mode.switch-work-mode', function () {
     $(this).removeClass('switch-work-mode').addClass('switch-read-mode').html('<i class="fa fa-eye fa-fw"></i> ' + __('btnReadMode'))
     $('#sidebar-left, #sidebar-right').show()
     $('.content__wrapper').addClass('edit-mode-margin')
