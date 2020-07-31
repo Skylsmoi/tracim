@@ -27,7 +27,7 @@
     "react": "16.7.0",
     "react-i18next": "7.4.0",
     "react-device-detect": "^1.7.5",
-    "react-dropzone": "^7.0.1",
+    "react-dropzone": "^9.0.0",
     "color": "^3.1.2",
     "core-js": "^3.1.4",
     "date-fns": "^1.30.1",
