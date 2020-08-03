@@ -55,7 +55,7 @@
     "isomorphic-fetch": "^2.2.1",
     "jsdom": "^15.1.1",
     "mocha": "^6.1.4",
-    "nock": "^11.7.1",
+    "nock": "^13.0.3",
     "react-dom": "16.7.0",
     "reactstrap": "^8.0.0",
     "sinon": "^7.4.1",
