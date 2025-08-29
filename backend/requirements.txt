@@ -55,7 +55,7 @@ pastedeploy==2.0.0        # via plaster-pastedeploy
 pathlib==1.0.1            # via preview-generator
 pbr==5.1.1                # via cliff, stevedore
 pdf2image==1.1.0          # via preview-generator
-pillow==5.3.0             # via cairosvg, pdf2image, preview-generator
+pillow==10.3.0             # via cairosvg, pdf2image, preview-generator
 plaster-pastedeploy==0.6  # via pyramid, tracim_backend (setup.py)
 plaster==1.0              # via plaster-pastedeploy, pyramid
 pluggy==0.13.1            # via tracim_backend (setup.py)
