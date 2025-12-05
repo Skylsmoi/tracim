@@ -96,7 +96,7 @@ transaction==2.4.0        # via pyramid-tm, tracim_backend (setup.py), zope.sqla
 translationstring==1.3    # via pyramid
 tzlocal==1.5.1            # via caldav
 unidecode==1.0.23         # via filedepot, python-slugify
-urllib3==1.24.2           # via elasticsearch, requests
+urllib3==2.6.0           # via elasticsearch, requests
 venusian==1.1.0           # via pyramid
 vobject==0.9.6.1          # via caldav, radicale
 vtk==8.1.2                # via preview-generator
